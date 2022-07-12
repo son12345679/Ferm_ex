@@ -5,6 +5,8 @@ import { Navbar, NavbarBrand } from 'reactstrap';
 import Menu from './components/MenuComponent';
 import { DISHES } from './shared/dishes';
 import Main from './components/MainComponent';
+import { BrowserRouter } from 'react-router-dom';
+
 
 class App extends Component {
 
@@ -44,6 +46,12 @@ address{
 .navbar-dark {
     background-color: #512DA8;
 }
+<BrowserRouter>
+      <div className="App">
+        <Main />
+      </div>
+    </BrowserRouter>
+
 
         <Main />
         
