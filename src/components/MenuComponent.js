@@ -65,6 +65,7 @@ class Menu extends Component {
 }
 
 class Menu extends Component {
+    
     constructor(props) {
         super(props);
         this.state = {
@@ -132,6 +133,8 @@ class Menu extends Component {
           </div>
         );
     }
+    
 }
+
 
 export default Menu;
